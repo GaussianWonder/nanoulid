@@ -23,7 +23,7 @@ const UIDGen = customAlphabet(ALPHABET);
  * new Date(Math.pow(2, 46) - 1).getTime()
  * ```
  *
- * Expected max length of 8 characters when encoded with the alphabet above: `0gzfxyzz3`, `j19fatwen`
+ * Expected max length of 9 characters when encoded with the alphabet above: `0gzfxyzz3`, `j19fatwen`
  *
  * ! Don't change this constant
  */
