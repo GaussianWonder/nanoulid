@@ -16,7 +16,7 @@ A 17 character ULID generator capable of monotonicity.
 2. Random data
    - encoded in 8 characters
 3. Monotonicity
-   - this can benefit of some upgrades, currently it just alphabetically increases by 1
+   - this can benefit of some upgrades, currently it just alphabetically increases by 1 until the next millisecond hits
 4. Lexicographically sortable
    - Time-based sort order
    - Can be used as a better UUID for most usecases
